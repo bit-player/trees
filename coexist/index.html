@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta name="author" content="Brian Hayes">
+    <meta name="viewport" content="width=device-width, initial-scale=0.6, maximum-scale=3.0, user-scalable=yes">
+
+    <title>Competition for Two Resources</title>
+    <link rel="stylesheet" type="text/css" href="../trees.css">
+
+  </head>
+
+  <body>
+    
+    <div id="container">
+      <h2>Competition for Two Resources</h2>
+      <canvas id="the-canvas" width="500px" height="500px"></canvas>
+      <div id="the-controls" style="display: flex; justify-content: center; margin: auto;">
+        <button id="start-stop-button">Start</button>
+        <button id="reset-button">Reset</button>
+        <div id="step-counter">
+          <span class="counter-label">Steps:</span>
+          <span class="counter-number" id="step-counter-display">0</span>
+        </div>
+				<input class="slider" id="coexist-slider" name="coexist-slider" type="range" min="30" max="70" step="1" value="50">
+        <output class="slider-output" id="coexist-slider-output" for="coexist-slider" style="text-align: center;">0.00</output>
+        <span class="slider-label">Fe : Ca</span>
+      </div>
+    </div>
+    
+    <script type="text/javascript" src="coexist.js"></script>
+
+  </body>
+</html>

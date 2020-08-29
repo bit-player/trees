@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta name="author" content="Brian Hayes">
+    <meta name="viewport" content="width=device-width, initial-scale=0.6, maximum-scale=3.0, user-scalable=yes">
+
+    <title>Two-Species Competition with Variable Fitness</title>
+    <link rel="stylesheet" type="text/css" href="../trees.css">
+
+  </head>
+
+  <body>
+    <div id="container">
+      <h2>Two-Species Competition with Variable Fitness</h2>
+      <canvas id="the-canvas" width="500px" height="500px"></canvas>
+      <div id="the-controls" style="display: flex; justify-content: center; margin: auto;">
+        <button id="start-stop-button">Start</button>
+        <button id="reset-button">Reset</button>
+        <div id="step-counter">
+          <span class="counter-label">Steps:</span>
+          <span class="counter-number" id="step-counter-display">0</span>
+        </div>
+				<input class="slider" id="fitness-slider" name="fitness-slider" type="range" min="-0.195" max="0.195" step="0.01" value="-0.025">
+        <output class="slider-output" id="fitness-slider-output" for="fitness-slider">-0.025</output>
+        <span class="slider-label">fitness bias</span>
+      </div>
+    </div>
+    
+    <script type="text/javascript" src="fitness.js"></script>
+
+  </body>
+</html>

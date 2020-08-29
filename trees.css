@@ -1,0 +1,89 @@
+div#container {
+	position: relative;
+	background-color: #fff;
+	width: 500px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+div#the-controls {
+	position: relative;
+	background-color: #fff;
+	width: 500px;
+	height: 40px;
+	display: flex; 
+	justify-content: center; 
+}
+
+button {
+	width: 65px;
+	height: 20px;
+	margin: auto;
+/* 	margin: 10px; */
+}
+
+div#step-counter {
+	width: 125px;
+	height: 20px;
+	background-color: #eee;
+	font-family: sans-serif;
+	font-size: 14px;
+	margin: auto;
+/*
+	margin-top: 10px;
+	margin-left: 10px;
+*/
+	line-height: 20px;
+}
+
+.counter-label {
+	position: relative;
+	text-align: left;
+	margin-left: 5px;
+}
+
+.counter-number {
+	position: relative;
+	text-align: right;
+	margin-right: 5px;
+	width: 70px;
+	float: right;
+}
+
+.slider {
+	width: 150px;
+	margin: auto;
+}
+
+.slider-output {
+	width: 60px;
+	height: 20px;
+	margin: auto;
+	background-color: #eee;
+	font-family: sans-serif;
+	font-size: 14px;
+	text-align: right;
+	line-height: 20px;
+}
+
+.slider-label {
+	position: absolute;
+	font-family: sans-serif;
+	font-size: 14px;
+	right: 60px;
+	bottom: -8px;
+}
+
+h2 {
+	color: #000;
+	font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+	font-weight: bold;
+	line-height: 1.5em;
+	margin: 0 0 20px 0;
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+

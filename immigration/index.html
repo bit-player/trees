@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta name="author" content="Brian Hayes">
+    <meta name="viewport" content="width=device-width, initial-scale=0.6, maximum-scale=3.0, user-scalable=yes">
+
+    <title>Ecological Drift with Immigrants</title>
+    <link rel="stylesheet" type="text/css" href="../trees.css">
+
+  </head>
+
+  <body>
+    
+    <div id="container">
+	    <h2>Ecological Drift with Immigrants</h2>
+      <canvas id="the-canvas" width="500px" height="500px"></canvas>
+      <div id="the-controls" style="display: flex; justify-content: center; margin: auto;">
+        <button id="start-stop-button">Start</button>
+        <button id="reset-button">Reset</button>
+        <div id="step-counter">
+          <span class="counter-label">Steps:</span>
+          <span class="counter-number" id="step-counter-display">0</span>
+        </div>
+				<input class="slider" id="immigration-slider" name="immigration-slider" type="range" min="0" max="27" step="1" value="9">
+        <output class="slider-output" id="immigration-slider-output" for="immigration-slider">1/100</output>
+        <span class="slider-label">immigration rate</span>
+      </div>
+    </div>
+    
+    <script type="text/javascript" src="immigration.js"></script>
+
+  </body>
+</html>
