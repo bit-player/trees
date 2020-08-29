@@ -19,4 +19,7 @@ The six directories:
 
 **socialdx.** In this model trees of the same species avoid adjacent sites, because of the hazard of sharing pathogens. This has the effect of favoring rare species and allowing multispecies coexistence.
 
+**invasion.** What happens when the social-distancing model is invaded by a species that doesn't need to do social distancing because it doesn't have pathogens?
+
+
 
